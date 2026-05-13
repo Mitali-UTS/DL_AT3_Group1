@@ -1,0 +1,22 @@
+[project]
+name = "dl-at3-group1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mitali-UTS",email = "mitali.H.balki@stdent.uts.edu.au"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "torch (>=2.11.0,<3.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "pandas (>=3.0.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false  
